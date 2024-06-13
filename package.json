@@ -1,0 +1,31 @@
+{
+  "name": "randoma",
+  "version": "1.0.0",
+  "description": "An NPM package that contains random functions and classes to help you in projects and etc.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OwenBellowen/randoma"
+  },
+  "keywords": [
+    "random",
+    "randoma",
+    "random functions",
+    "random number",
+    "random",
+    "random classes"
+  ],
+  "author": "OwenBellowen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "rimraf": "^5.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
